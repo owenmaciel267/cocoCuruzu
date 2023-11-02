@@ -347,3 +347,45 @@ h1,h2,h3{
 .card-tab img{
     object-fit: cover;
 }
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links a{
+font-size: 18px;
+text-decoration: none;
+color: #BBBBBB;
+display: block;
+margin-bottom: 15px;
+transition: all .3s ease;
+
+}
+.footer-links a:hover {
+    color: #ffff;
+    padding-left: 6px;
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #1db36d;
+    outline: 1px solid #1db36d;
+    transition: all .5s ease;
+}
+.social-link a:hover {
+    background-color: #1db36d;
+}
+@media(max-width:991px) {
+    .footer-links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
