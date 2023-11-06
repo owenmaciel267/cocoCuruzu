@@ -204,6 +204,7 @@ h1,h2,h3{
 /* anuncios */
 .anuncios{
     background-color: var(--backanuncio);
+    margin-bottom: 60px;
 }
 .trio__anuncio{
     display: flex;
@@ -364,7 +365,7 @@ transition: all .3s ease;
 }
 .footer-links a:hover {
     color: #ffff;
-    padding-left: 6px;
+    /* padding-left: 6px; */
 }
 
 .social-link a {
