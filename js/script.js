@@ -34,3 +34,21 @@ var swiperr = new Swiper(".mySwiper-2", {
       },
 });
 
+
+// Swiper de compras 
+
+var swiperr = new Swiper(".my-swiper-compras", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  autoScrollOffset: 0,
+  multipleActiveThumbs: true,
+  slideThumbActiveClass: 'swiper-slide-thumb-active',
+  thumbsContainerClass: 'swiper-thumbs',
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});

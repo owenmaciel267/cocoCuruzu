@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:wght@100;400;500;700;900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.btn-compra {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    border: none; /* Borde del botón */
+    border-radius: 5px; /* Radio de las esquinas */
+}
+
+.productos__compra{
+    display: flex;
+    
+}
+.datos{
+
+    margin: 40px;
+}
+
+.my-swiper-compras{
+    width: 600px;
+ 
+}
+.swiper-wrapper{
+    width: 100%;
+}
+.card__compra{
+    width: 100%;
+    border: 5px solid rgba(20, 129, 20, 0.26);
+}
+.card__compra img{
+    width: 100%;
+}
+
+.info-compra{
+    width:400;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    margin:20px auto;
+  
+}
+.title-compra h2{
+    width: auto;
+    margin-top: 35px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.precio-compra{
+    padding: 20px auto;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 300; 
+}
