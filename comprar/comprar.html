@@ -30,7 +30,7 @@
   <header>
     <!-- place navbar here -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-black" style="background-color: #e3f2fd;">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../index.html">
             <img src="../recursos/logo/logo.webp " class="mx-3" style="width: 40px; ">
         </a>
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +39,16 @@
         <div class=" collapse navbar-collapse justify-content-end mx-3" id="navbarScroll">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
+                    <a class="nav-link text-white" href="../index.html" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sobre</a>
+                    <a class="nav-link text-white" href="../html/nosotros.html">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="./html/productos.html">Productos</a>
+                    <a class="nav-link text-white" href="../html/productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contactarnos</a>
+                    <a class="nav-link text-white" href="../html/contacto.html">Contactarnos</a>
                 </li>
               
             </ul>
@@ -73,12 +73,12 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="card__compra">
-                            <img src="" alt="">
+                            <img src="../recursos/img/bermuda/carpintero.jpeg" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="card__compra">
-                            <img src="" alt="">
+                            <img src="../recursos/img/bermuda/carpintero2.jpeg" alt="">
                         </div>
                     </div>
                 
@@ -99,10 +99,10 @@
        <!-- Contenido de la compra -->
        <div class="info-compra">
             <div class="title-compra">
-                <h2>Jeans Mom Dallas</h2>
+                <h2>Bermuda Carpintero</h2>
                 <!-- precio -->
                 <p class="precio-compra">
-                    11,000,00
+                    $ 18.000,00
                 </p>
             </div>
             <div class="text-compra">
@@ -113,15 +113,20 @@
             <div class="info-compra-local">
                 <i class="bi bi-shop-window"></i>
                 <p >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum hic eligendi perferendis inventore, officia neque velit corporis magni nesciunt optio soluta adipisci molestias dolores, animi doloribus impedit! Fuga, ea.
+                    Bermuda Carpintero de color negro
+                    <br>
+                    talles disponibles del 30-58
                 </p>
             </div>
             <div class="cantidad-compra">
+                <label for="">Cantidad del producto</label>
+                <br>
                 <input type="number" value="1" min="1" max="5"  >
             </div>
             <div class="whatsapp-compra">
-                <a href="https://wa.me/3774569451?text=Hola%20quiero%20enviarte%20un%20mensaje" target="_blank">
+                <a href="https://wa.me/3774569451?text=Hola%20me%20gustaria%20comprar%20la%20bermuda carpintero" target="_blank">
                     <button class="btn-compra">Contacto por WhatsApp</button>
+                </a>
             </div>
        </div>
 
@@ -130,7 +135,111 @@
 
 
      <!-- productos de compras recomendados -->
+    <!-- Populares -->
+    <section class="productos productos_populares">
+        
+        <div class="productos__title" id="recomendados">
+            <h2 class="title">Podrian interesarte</h2>
+        </div>
+        
+        <!-- Slider main container -->
+        <div class="swiper mySwiper-2">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
 
+                    <div class="card" >
+                        <div class="card__img">
+                            <img src="../recursos/img/buzos/buzonegro.jpg">
+                        </div>
+                        <div class="card__contenido">
+                            <h2 >Bermuda Carpintero</h2>
+                            <p class="text-center">
+                                $ 18.000
+                            </p>
+                            <a href="../comprar/comprar.html" class="contenido__btn1 ">Comprar</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="../recursos/img/otros/gorra2.jpeg">
+                        </div>
+                        <div class="card__contenido">
+                            <h2 >Buzo Orso Blanco</h2>
+                            <p>
+                                $ 17.000
+                            </p>
+                            <a href="#" class="contenido__btn1">Comprar</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card" >
+                        <div class="card__img">
+                            <img src="../recursos/img/remera/remera.jpg">
+                        </div>
+                        <div class="card__contenido">
+                            <h2 >Remera Lazy'Star</h2>
+                            <p>
+                                $ 8.000
+                            </p>
+                            <a href="#" class="contenido__btn1">Comprar</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="../recursos/img/camperas/camperon.jpg">
+                        </div>
+                        <div class="card__contenido">
+                            <h2>Camperon Rompe Vientos</h2>
+                            <p>
+                                $ 25.000
+                            </p>
+                            <a href="#" class="contenido__btn1">Comprar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="../recursos/img/pantalon/jean.jpg">
+                        </div>
+                        <div class="card__contenido">
+                            <h2 >Jean Celeste</h2>
+                            <p>
+                                $ 14.000
+                            </p>
+                            <a href="#" class="contenido__btn1">Comprar</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev "></div>
+            <div class="swiper-button-next "></div>
+
+
+        </div>
+
+    </section>
 
   </main>
 <!-- Footer -->
@@ -146,7 +255,7 @@
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-black">Sobre</a></li>
             </ul>
             
-            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <a href="../index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="../recursos/logo/logo-2.webp" alt="logo" style=width:60px;>
             </a>
             

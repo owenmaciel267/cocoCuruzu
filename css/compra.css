@@ -60,3 +60,21 @@
     font-size: 50px;
     font-weight: 300; 
 }
+.text-compra{
+    margin: 20px 0;
+}
+
+.info-compra-local{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.info-compra-local i{
+    font-size: 30px;
+    margin: 0px 20px 0px 0px;
+}
+.info-compra-local p{
+    outline: 2px solid rgba(20, 129, 20, 0.26);
+    padding: 20px;
+}
+

@@ -297,13 +297,13 @@ h1,h2,h3{
     color: black;
     font-weight: 500;
 }
-
+/* 
 .card__contenido p{
+    text-align: center;
     font-size: 14px;
     width: 200px;
     font-weight: 100;
-    text-align: center;
-}
+} */
 
 .card__contenido .contenido__btn1{
     display: block;
@@ -349,6 +349,94 @@ h1,h2,h3{
     object-fit: cover;
 }
 
+/* form */
+
+/* Formulario de contacto */
+.formulario_contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formulario_contacto form{
+    /* display: flex; */
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 50px 0;
+    background-image: url("../Slider pri/gi.jpeg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+
+}
+.formulario_contacto h2{
+    color: #283629;
+    font-size: 35px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+label{
+    color: rgb(34, 199, 95);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #fbfbfb45;
+    border: 2px solid  #f0faf1;
+    color: #283629;
+
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: #54a758;
+}
+
+.form-text{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.form-text a{
+    color: #76b280;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn, .btn-eliminar, .btn-actualizar{
+    font-size: 16px;
+    color: #000000;
+    border: 0;
+    border-radius: #37dc60;
+    box-shadow: 0 0 20px rgba(0, 254, 51, 0.29);
+    cursor: pointer;
+}
+
+.btn:hover, .btn-eliminar:hover, .btn-actualizar:hover {
+    background-color: #4be05f;
+}
+
+
+
+
+
+/* Footer */
 .footer-links {
     width: 25%;
     padding: 0 15px;
